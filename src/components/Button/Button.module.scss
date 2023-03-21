@@ -1,0 +1,25 @@
+@import 'style/variaveis.module';
+
+/* CSS */
+.button {
+  height: $cell-dimension / 2;
+  width: $cell-dimension / 2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: rgb(249, 102, 102);
+  transition: box-shadow .5s;
+}
+
+.button:hover {
+  // border: 5px solid $global-bg-color;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+  background-color: rgb(252, 0, 0);
+}

@@ -1,0 +1,17 @@
+@import 'style/variaveis.module';
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: $output-font-weight;
+    width: $output-width;
+    background-color: $output-bg-color;
+    height: $output-height;
+    margin: $output-margin;
+    border-radius: $output-border-radius;
+    padding: $output-padding;
+    box-sizing: border-box;
+    color: $output-color-text;
+    
+}

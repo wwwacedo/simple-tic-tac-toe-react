@@ -1,0 +1,20 @@
+@import 'style/variaveis.module';
+
+.cell {
+    height: $cell-dimension;
+    width: $cell-dimension;
+    margin: $margin;
+    border-radius: $border-radius;
+    display: flex;
+    color: $cell-text-color;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 6px 8px 0 rgba(37,39,53,0.24),0 8px 25px 0 rgba(37,39,53,0.19);
+    color: #EEEEEE;
+    transition: box-shadow .3s;
+}
+
+.cell:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.3),0 8px 25px 0 rgba(0,0,0,0.19);
+}

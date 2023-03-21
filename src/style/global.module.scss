@@ -1,0 +1,10 @@
+@import-normalize;
+@import './variaveis.module';
+
+body {
+    background-color: $global-bg-color;
+    color: $global-text-color;
+    font-family: $global-font-family;
+    text-align: center;
+    font-weight: $global-font-weight;
+}

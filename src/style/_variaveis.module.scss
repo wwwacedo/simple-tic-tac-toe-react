@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+$branco: #EEEEEE;
+$cinza-escuro: #161926;
+$cinza-medio: rgb(37, 39, 53);
+$cinza-claro: #6C6C6E;
+$azul-escuro: #3E82FC;
+$azul-claro: #6FBBF9;
+$preto: #002B5B;
+
+// GLOBAIS
+$global-bg-color: $branco;
+$global-text-color: $cinza-escuro;
+$global-font-family: 'Roboto', sans-serif;
+$global-font-weight: 300;
+
+// CELLS
+$cell-dimension: 100px;
+$margin: 10px;
+$border-radius: 5px;
+$cell-text-color: $preto;
+
+//BOARD
+$board-width: 3*$cell-dimension + 6*$margin;
+
+// SCORECARD
+$scorecard-padding: 0 $board-width / 6;
+
+// OUTPUT
+$output-bg-color: $branco;
+$output-width: 3*$cell-dimension + 4*$margin;
+$output-height: 32px;
+$output-border-radius: 5px;
+$output-padding: 2*$margin 0;
+$output-margin: $margin auto;
+$output-color-text: #000;
+$output-font-weight: 500;

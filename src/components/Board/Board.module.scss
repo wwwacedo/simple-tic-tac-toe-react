@@ -1,0 +1,8 @@
+@import 'style/variaveis.module';
+
+.board {
+    width: $board-width;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
